@@ -148,7 +148,7 @@ public final class CastleCore extends JavaPlugin implements Listener {
                     // Creating an inventory GUI to display reports
                     Inventory gui = Bukkit.createInventory(player, 54, "Reports");
                     for (Report report : reports) {
-                        // Creating ItemStack for each report
+                        // Creating ItemStack for The Skull of The Player That Got Reported.
                         ItemStack head = new ItemStack(Material.PLAYER_HEAD);
                         SkullMeta meta = (SkullMeta) head.getItemMeta();
                         meta.setOwner(report.getReportedPlayer());
